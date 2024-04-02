@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    --clr-black:#000000;
+    --clr-netural:#404040;
+    --clr-white:#ffffff;
+    --clr-zinc-100:#f4f4f5;
+    --clr-zinc-200:#e4e4e7;
+    --clr-zinc-300:#d4d4d8;
+    --clr-zinc-500:#71717a;
+    --clr-zinc-800:#27272a;
+    --clr-error:#ef4444;
+}
+
+.text-zinc-500 {
+    color: var(--clr-zinc-500);
+}
+
+.text-black {
+    color: var(--clr-black);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.stoke{
+    -webkit-text-stroke: 1px black;
+}
+
+@media (max-width: 349px) {
+    .w-xs-280px {
+        width: 280px !important;
+    }
+}
+
+@media (min-width: 786px) {
+    .w-md-50{
+        width: 400px !important;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .w-lg-50{
+        width: 500px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .display-none-md{
+        display: none;
+    }
+}
+
+.list-style{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.width-350px {
+    width: 350px;
+}
+
+.width-310px {
+    width: 310px;
+}
+
+
+
+@media(max-width:576px)
+{
+    .w-xs-85{
+        width: 85%;
+    }
+}
+
+.border-page3{
+    border: 1px solid var(--clr-zinc-500);
+    border-radius: 5px;
+}
+
+.mt-5r{
+    margin-top: 8rem;
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+}
